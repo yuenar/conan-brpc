@@ -15,4 +15,4 @@ set(PROTOBUF_INCLUDE_DIR "${CONAN_PROTOBUF_ROOT}/include")
 # disable picking up system-installed libraries with find_library
 set(CMAKE_FIND_USE_CMAKE_SYSTEM_PATH FALSE)
 
-add_subdirectory(brpc-1.3.0)
+add_subdirectory(brpc-1.5.0)
